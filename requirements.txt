@@ -1,0 +1,15 @@
+# Bibliotecas principales
+streamlit>=1.20.0
+pandas>=1.5.0
+plotly>=5.13.0
+matplotlib>=3.7.0
+
+# Manejo de datos y tipos
+typing-extensions>=4.5.0
+python-dateutil>=2.8.2
+
+# Logging y utilidades del sistema
+logging>=0.5.1.2
+
+# Especificación de versiones Python
+python>=3.8,<4.0
