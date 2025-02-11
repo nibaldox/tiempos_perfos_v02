@@ -24,7 +24,7 @@ class Visualizer:
             # Preparar hover data para incluir drill pattern si existe
             hover_data = None
             if "drill_pattern" in df.columns:
-                hover_data = ["drill_pattern"]
+                hover_data = ["drill_pattern", "pozo","duracion"]
 
             fig = px.scatter(
                 df,
