@@ -8,8 +8,4 @@ matplotlib
 typing-extensions
 python-dateutil
 
-# Logging y utilidades del sistema
-logging
 
-# Especificación de versiones Python
-python
