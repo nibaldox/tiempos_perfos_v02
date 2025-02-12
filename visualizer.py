@@ -18,7 +18,7 @@ class Visualizer:
             color_mapping = {
                 "roca suave": "#98FB98",    # verde menta pastel
                 "roca media": "#FFD700",    # amarillo más cercano al original
-                "roca dura": "#8B0000",      # rojo más oscuro
+                "roca dura": "#e74c3c",      # rojo más oscuro
                 "roca muy dura": "#BA55D3"   # lavanda más brillante, cercano al original
             }
             # Preparar hover data para incluir drill pattern si existe
