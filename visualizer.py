@@ -12,7 +12,7 @@ class Visualizer:
         for col in required_columns:
             if col not in df.columns:
                 logging.error(f"Falta la columna requerida: {col}")
-                raise ValueError(f"El archivo no contiene la columna '{col}' necesaria para la visualización interactiva.")
+                raise ValueError(f"El archivo no contiene la columna '{col}' necesaria para la visualización interactiva."material_operator")
         try:
             # Definir mapeo de colores desaturados para Plotly
             color_mapping = {
@@ -24,7 +24,7 @@ class Visualizer:
             # Preparar hover data para incluir drill pattern si existe
             hover_data = None
             if "drill_pattern" in df.columns:
-                hover_data = ["drill_pattern", "pozo","duracion"]
+                hover_data = ["drill_pattern", "pozo","duracion", "]
 
             fig = px.scatter(
                 df,
